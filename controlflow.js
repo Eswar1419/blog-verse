@@ -38,5 +38,24 @@ default:
     break;
 }
 for(let i=1;i<=5;i++){
-    console.log(i);
-}    
+    console.log("eswar");
+} 
+let j=0   
+while(j<=10){
+    console.log(j);
+    j++;
+}
+let colors=["red","green","blue"];
+for(let i=0;i<colors.length;i++){
+    console.log(colors[i]);
+}
+for(let color of colors){
+    console.log(color);
+}
+let person={
+    name:"eswar",
+    age:19
+}
+for(let key in person){
+    console.log(key,person[key]);
+}
